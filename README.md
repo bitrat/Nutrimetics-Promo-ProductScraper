@@ -39,31 +39,55 @@ Reboot Windows
 java -jar selenium-server.jar -firefoxProfileTemplate “<Selenium Profile Directory>”
   
 ### Suggested settings for your Selenium Profile
-1.From “Menu –View - Toolbars” tab, uncheck “Bookmarks Toolbar”
+1.From “Menu –View - Toolbars” tab, uncheck “Bookmarks Toolbar”.
+
 2.Right click from toolbar and click “Customize”
+
 3.Remove “Google search” by dragging it to the “Customize Toolbar” window
+
 4.Exit Customize.
+
 5.Click “Options” then set the following:
+
  a. “Main” Tab
+ 
  – set Home Page to “about:blank”
+ 
  b. “Tabs” option
+ 
  – Select “a new window” for new pages
+ 
 c. “Content” tab
+
  – uncheck “Block pop-up” windows option
+ 
  d. “Privacy” tab
+ 
  – uncheck all “History” options – if restart then Win+R – “firefox.exe -ProfileManager -no-remote” in admin mode - use Firefox profile selenium and add settings to it.
+ 
  e. “Security” tab
+ 
  – uncheck all “Security” options
+ 
  – click “Settings” and uncheck all warning options
+ 
  f. “Advanced” tab
+ 
  – Uncheck “autoscrolling” option from “General” tab
+ 
  – uncheck “warn me …” and “Search Engines”option from “Update” tab
+ 
 6. From the address bar type “about:config” and add the following by right-click anywhere on the page and selecting “new”
  – extensions.update.notifyUser (type=boolean; value=false)
+ 
  – extensions.newAddons (type=boolean; value=false)
+ 
 -	security.insecure_field_warning.contextual.enabled. 
+
 and
+
 -	security.insecure_password.ui.enabled
+
 Double-click each  to change their values to false.
 
 7. From “Tools\Add-ons” install the following:
