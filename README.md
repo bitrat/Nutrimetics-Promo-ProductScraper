@@ -1,7 +1,7 @@
 # Nutrimetics-Promo-ProductScraper
 Extract Nutrimetics promo products automatically - to create a simple text file price list for customers
 
-## Instructions 
+## Instructions - April 2017
 Windows Instructions - Python, Selenium, Firefox, Beautifulsoup
 - Install Python, if not installed already.
 -	Install Anaconda (version used was Anaconda3-4.1.1-Windows-x86_64.exe)
