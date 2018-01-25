@@ -6,23 +6,23 @@ Windows Instructions - Python, Selenium, Firefox, Beautifulsoup
 - Install Python, if not installed already.
 -	Install Anaconda (version used was Anaconda3-4.1.1-Windows-x86_64.exe)
 
-o	Run cmd
+  o	Run cmd
 
-o	Cd into the Anaconda directory
+  o	Cd into the Anaconda directory
 
 -	Need to install selenium module
 
-o	$ pip install –U selenium
+  o	$ pip install –U selenium
 
-o	If Selenium 3 is installed :
+  o	If Selenium 3 is installed :
 
 -	download geckodriver from https://github.com/mozilla/geckodriver/releases for your OS. Unzip the downloaded file and keep it in one of your project folder (ie. D:\ drive or Python path). Now set the path to geckodriver as a system path property manually in Windows. 
 
-Search for PATH
+  Search for PATH
 
-Environment variables – system
+  Environment variables – system
 
-Add geckodriver to System PATH variable (directory goes at end of list)
+  Add geckodriver to System PATH variable (directory goes at end of list)
 
 Reboot Windows
 -	$ pip install beautifulsoup4
